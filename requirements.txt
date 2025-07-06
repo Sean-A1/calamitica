@@ -1,0 +1,24 @@
+# === 필수 웹 프레임워크 ===
+Django==5.1.4
+django-environ==0.12.0
+pillow==11.1.0
+requests==2.32.3
+
+# === 개발 보조 도구 ===
+black==24.4.2
+django-debug-toolbar==4.3.0
+django-extensions==3.2.3
+python-dotenv==1.0.1
+rich==13.7.1
+loguru==0.7.2
+
+# === 폼 / 템플릿 관련 ===
+django-crispy-forms==2.1
+django-widget-tweaks==1.5.0
+
+# === API / 비동기 통신 ===
+httpx==0.27.0
+
+# === 게임 시스템 확장 (선택적 사용) ===
+django-fsm==2.8.0
+factory_boy==3.3.0
