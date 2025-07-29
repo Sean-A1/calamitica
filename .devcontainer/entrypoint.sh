@@ -1,11 +1,6 @@
 #!/bin/bash
 set -e  # 에러 발생 시 중단
 
-rm -rf logs db
-mkdir -p logs db
-touch logs/calamitica.log
-
-
 python manage.py makemigrations
 python manage.py migrate
 
